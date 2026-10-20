@@ -1,0 +1,129 @@
+{
+  "id": "p61",
+  "title": "Gate-All-Around Nanosheet Transistor",
+  "category": "Semiconductors",
+  "silhouette": "stack",
+  "slowMotion": false,
+  "falseColor": false,
+  "nodes": [
+    {
+      "id": "n1",
+      "glyph": "terminal",
+      "label": "Terminals",
+      "role": "path",
+      "x": 0.5,
+      "y": 0.16
+    },
+    {
+      "id": "n2",
+      "glyph": "nanosheet",
+      "label": "Wrapped nanosheets",
+      "role": "path",
+      "x": 0.5,
+      "y": 0.335
+    },
+    {
+      "id": "n3",
+      "glyph": "potential",
+      "label": "Channel potential",
+      "role": "path",
+      "x": 0.5,
+      "y": 0.51
+    },
+    {
+      "id": "n4",
+      "glyph": "gate",
+      "label": "Off flow",
+      "role": "path",
+      "x": 0.5,
+      "y": 0.685
+    },
+    {
+      "id": "n5",
+      "glyph": "chip",
+      "label": "Logic-cell context",
+      "role": "path",
+      "x": 0.5,
+      "y": 0.86
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "role": "path",
+      "start": 150,
+      "end": 1019
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "role": "path",
+      "start": 300,
+      "end": 1019
+    },
+    {
+      "from": "n3",
+      "to": "n4",
+      "role": "path",
+      "start": 510,
+      "end": 1019
+    },
+    {
+      "from": "n4",
+      "to": "n5",
+      "role": "path",
+      "start": 750,
+      "end": 1019
+    }
+  ],
+  "emphasis": [
+    [
+      "n1"
+    ],
+    [
+      "n2"
+    ],
+    [
+      "n3"
+    ],
+    [
+      "n4"
+    ],
+    [
+      "n5"
+    ]
+  ],
+  "stages": [
+    {
+      "f0": 0,
+      "f1": 149,
+      "action": "Reveal terminals",
+      "detail": "Establish the full assembly, then make a measured three-quarter push toward the active region."
+    },
+    {
+      "f0": 150,
+      "f1": 299,
+      "action": "Show wrapped nanosheets",
+      "detail": "Use a sectional close-up and identify only the components required for this mechanism."
+    },
+    {
+      "f0": 300,
+      "f1": 509,
+      "action": "Control channel potential",
+      "detail": "Track the primary causal pathway, keeping inputs, outputs, and control overlays distinct."
+    },
+    {
+      "f0": 510,
+      "f1": 749,
+      "action": "Compare on and off flow",
+      "detail": "Follow the resulting response with readable labels and a separate qualitative inset if useful."
+    },
+    {
+      "f0": 750,
+      "f1": 1019,
+      "action": "Show logic-cell context",
+      "detail": "Pull back to a stable system overview; retain visible losses, limits, or uncertainty where relevant."
+    }
+  ]
+}
